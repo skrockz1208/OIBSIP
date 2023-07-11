@@ -1,43 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Calculator</title>
-  <link rel="stylesheet" type="text/css" href="style1.css">
+  <title>To-Do App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-</body>
-<br>
-<br>
-<br>
-<h1 style="text-align: center;margin-left: 0px;">CALCULATOR</h1>
-  <div class="calculator">
-    <input type="text" id="result" readonly>
-    <button onclick="clearResult()">C</button>
-    <button onclick="deleteLast()">DEL</button>
-    <button onclick="appendToResult('+')">+</button>
-    <button onclick="appendToResult('-')">-</button>
-    <button onclick="appendToResult('/')">/</button>
-    <button onclick="appendToResult('9')">9</button>
-    <button onclick="appendToResult('8')">8</button>
-    <button onclick="appendToResult('7')">7</button>
-    <button onclick="appendToResult('*')">*</button>
-    <button onclick="appendToResult('6')">6</button>
-    <button onclick="appendToResult('5')">5</button>
-    <button onclick="appendToResult('4')">4</button>
-    <button onclick="appendToResult('%')">%</button>
-    <button onclick="appendToResult('3')">3</button>
-    <button onclick="appendToResult('2')">2</button>
-    <button onclick="appendToResult('1')">1</button>
-    <button onclick="appendToResult('.')">.</button>
-    
-    <button onclick="calculateResult()">Enter</button>
+<body>
+  <div class="container">
+    <h1>To-Do Web App</h1>
+    <div>
+      <input type="text" id="taskInput" placeholder="Enter a new task...">
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+    <div class="task-list">
+      <h2>Pending Tasks</h2>
+      <ul id="pendingTasks"></ul>
+    </div>
+    <div class="task-list">
+      <h2>Completed Tasks</h2>
+      <ul id="completedTasks"></ul>
+    </div>
   </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <footer>
-    <p style="text-align: center;padding-top:10%;">Built with ❤️ by <b style="font-size: large;">Saurabh Kosarkar</b></p>
-  </footer>
+  
   <script src="script.js"></script>
+  <footer>
+    <p>Built with ❤️ by <b>Saurabh Kosarkar</b></p>
+  </footer>
 </body>
 </html>

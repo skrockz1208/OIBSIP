@@ -1,0 +1,66 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+body
+{
+  padding-top: 7%;
+  background-color: aquamarine;
+  background-size:100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+body
+{
+  background-image:url(bg\ for\ to\ do.jpg);
+}
+
+h1 {
+  text-align:center;
+  font-size:50px;
+  color:rgb(172, 199, 199);
+}
+h2
+{
+  color:rgb(172,220,220);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color:ivory;
+  border-radius:10%;
+}
+
+.task-list {
+  margin-top: 20px;
+  padding-right: 50px;
+  color: aliceblue;
+  font-size: larger; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+p
+{
+  text-align: center;
+  padding-top: 140px;
+  color: rgb(172, 199, 199);
+}
