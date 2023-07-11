@@ -1,0 +1,25 @@
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 10px;
+}
+body
+{
+  background-image: url(calculator.jpg);
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-attachment: fixed;
+}
+input[type="text"] {
+  grid-column: span 4;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: right;
+}
+
+button {
+  padding: 10px;
+}
